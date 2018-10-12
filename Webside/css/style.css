@@ -11,9 +11,6 @@
     mørk:  #333
     lys:   #fff
 
-fungerer dette nå?
--varibael khsb vøhbvøsvbaøs vøb viuvb
-
 */ 
 
 html{
@@ -23,7 +20,7 @@ html{
 }
 
 body{
-    background: rgb(245, 230, 206);
+    background: #fff;
     margin: 0px 40px;
     line-height: 1.4;
 }
