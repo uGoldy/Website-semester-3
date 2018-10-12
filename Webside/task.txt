@@ -4,3 +4,4 @@
 - lag ferdig mainpage
 - lag foodpage
 - finn mat bilder på www.pexels.com
+- legge til fonter
