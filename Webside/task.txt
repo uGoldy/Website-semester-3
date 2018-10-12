@@ -1,0 +1,6 @@
+- lag michelin logo (bruk Besley "font på mac'en")
+- lag logo for Food&Tasty
+- bestem deg for colorpallet
+- lag ferdig mainpage
+- lag foodpage
+- finn mat bilder på www.pexels.com
