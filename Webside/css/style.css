@@ -260,12 +260,6 @@ footer{
 
 /*Media "Tablet" queries*/
 @media(max-width: 815px){
-}
-
-/*Media "Tablet" queries*/
-@media(max-width: 815px){
-=======
-@media(max-width: 725px){
     .top-container{
         grid-template-areas:
             'showcase showcase'
