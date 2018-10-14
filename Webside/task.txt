@@ -5,3 +5,4 @@
 - lag foodpage
 - finn mat bilder på www.pexels.com
 - legge til fonter
+- prøv å få bildet heldekket (parallax) <3
