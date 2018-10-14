@@ -145,7 +145,8 @@ img{
 .showcase{
     grid-area: showcase;
     min-height: 400px;
-    background-image: url(https://images.pexels.com/photos/332090/pexels-photo-332090.jpeg);
+    background-image: url(https://images.pexels.com/photos/750843/pexels-photo-750843.jpeg);
+    background-image: repeating-radial-gradient(https://images.pexels.com/photos/750843/pexels-photo-750843.jpeg)
     background-size: cover;
     background-position: center;
     padding: 3rem;
