@@ -304,3 +304,13 @@ footer{
         background-attachment: scroll;
     }
 }
+
+/*Media "medium desktop" queries*/
+@media(max-width: 900px){
+    
+}
+
+/*Media "large desktop" queries*/
+@media(max-width: 1300px){
+    
+}
