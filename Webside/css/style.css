@@ -74,7 +74,7 @@ html{
 
 body{
     background: rgb(37, 35, 35);
-    margin: 0px 0px;
+    margin: 0px 40px;
 }
 /* Buttons */
 .btn{
@@ -172,12 +172,16 @@ img{
     font-size: 4rem;
     margin-bottom: 0;
     color: #fff;
+<<<<<<< HEAD
     text-shadow: 0px 3px 2px #333;
     grid-area: h1;
 }
 
 #logo{
     grid-area: logo;
+=======
+    text-shadow: 0px 3px 2px #333
+>>>>>>> parent of 1788267... fixet size og margin for desktop og tablet
     
 }
 
@@ -266,19 +270,19 @@ footer{
 }
 
 /*Media "Tablet" queries*/
+<<<<<<< HEAD
 @media(max-width: 815px){
 }
 
 /*Media "Tablet" queries*/
 @media(max-width: 815px){
+=======
+@media(max-width: 725px){
+>>>>>>> parent of 1788267... fixet size og margin for desktop og tablet
     .top-container{
         grid-template-areas:
             'showcase showcase'
             'top-box-a top-box-b';
-    }
-    
-    .main-nav a{
-        font-size: 1.1rem;
     }
     
     .showcase h1{
@@ -309,9 +313,13 @@ footer{
             'top-box-a'
             'top-box-b';
     }
+<<<<<<< HEAD
     .showcase{
         background-attachment: scroll;
     }
 }
 
 
+=======
+}
+>>>>>>> parent of 1788267... fixet size og margin for desktop og tablet
