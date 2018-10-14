@@ -185,10 +185,17 @@ img{
 
 .top-box-a{
     grid-area: top-box-a;
+    background-image: url(https://images.pexels.com/photos/769289/pexels-photo-769289.jpeg);
+    background-position: center;
+    background-size: cover;
 }
+
 
 .top-box-b{
     grid-area: top-box-b;
+    background-image: url(https://images.pexels.com/photos/1407857/pexels-photo-1407857.jpeg);
+    background-position: center;
+    background-size: cover;
 }
 
 /* boxes */
