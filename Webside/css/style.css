@@ -140,7 +140,6 @@ img{
     grid-gap: 20px;
     grid-template-areas:
     'showcase showcase showcase'
-    'showcase showcase showcase'
     'top-box-a top-box-a top-box-b';
 }
 
