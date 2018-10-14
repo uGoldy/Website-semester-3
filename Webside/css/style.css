@@ -62,6 +62,9 @@ table {
 	border-spacing: 0;
 }
 
+
+/* Mayer-reset ending */
+
 html{
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
