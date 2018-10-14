@@ -265,21 +265,9 @@ footer{
     padding: 1rem;
 }
 
-/*Media størrelser start */
-
-/*Media "Phone" queries*/
-@media(max-width: 500px){
-    .top-container{
-        grid-template-areas:
-            'showcase'
-            'top-box-a'
-            'top-box-b';
-    }
-    .showcase{
-        background-attachment: scroll;
-    }
+/*Media "Tablet" queries*/
+@media(max-width: 815px){
 }
-
 
 /*Media "Tablet" queries*/
 @media(max-width: 815px){
@@ -313,12 +301,17 @@ footer{
     }
 }
 
-/*desktop small*/
-@media (min-width: 978px){    
+/*Media "Phone" queries*/
+@media(max-width: 500px){
+    .top-container{
+        grid-template-areas:
+            'showcase'
+            'top-box-a'
+            'top-box-b';
+    }
+    .showcase{
+        background-attachment: scroll;
+    }
 }
 
-/*desktop large*/
-@media (min-width: 1200px){ 
-}
 
-/*Media størrelser slutt */
