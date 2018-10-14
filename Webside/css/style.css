@@ -74,7 +74,7 @@ html{
 
 body{
     background: rgb(37, 35, 35);
-    margin: 0px 40px;
+    margin: 0px 10px;
 }
 /* Buttons */
 .btn{
@@ -211,7 +211,7 @@ img{
 
 .top-box-b{
     grid-area: top-box-b;
-    background-image: url(https://images.pexels.com/photos/1407848/pexels-photo-1407848.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-image: url(https://images.pexels.com/photos/1407848/pexels-photo-1407848.jpeg?);
     background-position: center;
     background-size: cover;
 }
