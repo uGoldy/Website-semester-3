@@ -6,3 +6,4 @@
 - finn mat bilder på www.pexels.com
 - legge til fonter
 - prøv å få bildet heldekket (parallax) <3
+- husk å legge til "alt" link på alle linker/bilder
