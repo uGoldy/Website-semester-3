@@ -72,7 +72,7 @@ html{
 }
 
 body{
-    background: #122858;
+    background: rgb(37, 35, 35);
     margin: 0px 40px;
 }
 /* Buttons */
@@ -115,7 +115,7 @@ img{
 }
 
 .main-nav a{
-    background: #ddd;
+    background: rgb(37, 35, 35);
     display: block;
     text-decoration: none;
     padding: 0.8rem;
@@ -171,7 +171,7 @@ img{
 
 /* Top box */
 .top-box{
-    background: #ddd;
+    background: rgb(37, 35, 35);
     display: grid;
     align-items: center;
     justify-items: center;
@@ -199,7 +199,7 @@ img{
 }
 
 .box{
-    background: #ddd;
+    background: rgb(37, 35, 35);
     text-align: center;
     padding: 1.5rem 2rem;
     grid-gap: 20px;
@@ -208,7 +208,7 @@ img{
 
 /* info */
 .info{
-    background: #ddd;
+    background: rgb(37, 35, 35);
     box-shadow: 0px 1px 4px rgb(104, 104, 104);
     display: grid;
     grid-gap: 30px;
