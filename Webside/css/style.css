@@ -312,7 +312,8 @@ img{
     grid-template-columns: repeat(2, 1fr);
     padding: 1rem;
     font-family: 'Italiana', serif;
-    
+    font-size: 25px;
+    text-align: center;
     
 }
 
@@ -356,7 +357,7 @@ footer{
     
     .info{
         grid-template-columns: 1fr;
-        
+        font-size: 15px;
     }
     
     info .btn{
@@ -388,7 +389,9 @@ footer{
 
 /*Media "medium desktop" queries*/
 @media(max-width: 900px){
-    
+    .info{
+        font-size: 25px;
+    }
 }
 
 /*Media "large desktop" queries*/
