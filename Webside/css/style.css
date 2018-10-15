@@ -214,6 +214,9 @@ img{
     background-image: url(https://images.pexels.com/photos/769289/pexels-photo-769289.jpeg);
     background-position: center;
     background-size: cover;
+    font-size: 25px;
+    text-align: center;
+    filter: grayscale(5%);
 }
 
 
@@ -222,6 +225,9 @@ img{
     background-image: url(https://images.pexels.com/photos/1407848/pexels-photo-1407848.jpeg?);
     background-position: center;
     background-size: cover;
+    font-size: 25px;
+    text-align: center;
+    filter: grayscale(5%);
 }
 
 .top-box-1{
