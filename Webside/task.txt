@@ -4,6 +4,13 @@
 - lag ferdig mainpage
 - lag foodpage
 - finn mat bilder på www.pexels.com
-- legge til fonter
-- prøv å få bildet heldekket (parallax) <3
+- legge til fonter google fonts
+
 - husk å legge til "alt" link på alle linker/bilder
+
+
+********* Must do ***********
+- legge til fonter google fonts
+- bestem deg for colorpallet
+- husk å legge til "alt" link på alle linker/bilder (+ 200 ord)
+- lag logo for Food&Tasty
