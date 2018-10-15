@@ -218,7 +218,7 @@ img{
 
 .top-box-1{
     grid-area: top box top-box-1;
-    content: url(https://images.pexels.com/photos/921374/pexels-photo-921374.jpeg);
+    background-image: url(https://images.pexels.com/photos/921374/pexels-photo-921374.jpeg);
     background-position: center;
     background-size: cover;
 }
