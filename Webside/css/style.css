@@ -225,10 +225,59 @@ img{
 
 .top-box-2{
     grid-area: top box top-box-2;
-    background-image: url(https://images.pexels.com/photos/921374/pexels-photo-921374.jpeg);
+    background-image: url(https://images.pexels.com/photos/722670/spaghetti-bolognese-food-rustic-722670.jpeg);
     background-position: center;
     background-size: cover;
 }
+
+.top-box-3{
+    grid-area: top box top-box-3;
+    background-image: url(https://images.pexels.com/photos/1438672/pexels-photo-1438672.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.top-box-4{
+    grid-area: top box top-box-4;
+    background-image: url(https://images.pexels.com/photos/1435896/pexels-photo-1435896.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.top-box-5{
+    grid-area: top box top-box-5;
+    background-image: url(https://images.pexels.com/photos/70956/pexels-photo-70956.jpeg);
+    background-position: center;
+    background-size: cover; 
+}
+
+.top-box-6{
+    grid-area: top box top-box-6;
+    background-image: url(https://images.pexels.com/photos/1376962/pexels-photo-1376962.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.top-box-7{
+    grid-area: top box top-box-7;
+    background-image: url(https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.top-box-8{
+    grid-area: top box top-box-8;
+    background-image: url(https://images.pexels.com/photos/921362/pexels-photo-921362.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.top-box-9{
+    grid-area: top box top-box-9;
+    background-image: url(https://images.pexels.com/photos/37078/food-spanish-baked-eggs-spanish-egg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 
 
 
