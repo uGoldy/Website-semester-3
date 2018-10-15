@@ -209,7 +209,7 @@ img{
     
 }
 
-/*
+
 .top-box-a{
     grid-area: top-box-a;
     background-image: url(https://images.pexels.com/photos/769289/pexels-photo-769289.jpeg);
@@ -247,18 +247,18 @@ img{
 
 .top-box-3{
     grid-area: top box top-box-3;
-    background-image: url(https://images.pexels.com/photos/1438672/pexels-photo-1438672.jpeg);
+    background-image: url(https://images.pexels.com/photos/1438672/pexels-photo-1438672.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     background-position: center;
     background-size: cover;
 }
 
 .top-box-4{
     grid-area: top box top-box-4;
-    background-image: url(https://images.pexels.com/photos/1435896/pexels-photo-1435896.jpeg);
+    background-image: url(https://images.pexels.com/photos/1435896/pexels-photo-1435896.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     background-position: center;
     background-size: cover;
 }
-*/
+
 .top-box-5{
     grid-area: top box top-box-5;
     background-image: url(https://images.pexels.com/photos/70956/pexels-photo-70956.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
