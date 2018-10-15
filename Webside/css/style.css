@@ -307,6 +307,13 @@ footer{
     .showcase{
         background-attachment: scroll;
     }
+    .info p{
+        display: none;
+    }
+    
+    .info{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 /*Media "medium desktop" queries*/
