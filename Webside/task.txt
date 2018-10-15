@@ -10,7 +10,7 @@
 
 
 ********* Must do ***********
-- legge til fonter google fonts
+
 - bestem deg for colorpallet
-- husk å legge til "alt" link på alle linker/bilder (+ 200 ord)
+-  (+ 200 ord)
 - lag logo for Food&Tasty
