@@ -209,6 +209,7 @@ img{
     
 }
 
+/*
 .top-box-a{
     grid-area: top-box-a;
     background-image: url(https://images.pexels.com/photos/769289/pexels-photo-769289.jpeg);
@@ -257,10 +258,10 @@ img{
     background-position: center;
     background-size: cover;
 }
-
+*/
 .top-box-5{
     grid-area: top box top-box-5;
-    background-image: url(https://images.pexels.com/photos/70956/pexels-photo-70956.jpeg);
+    background-image: url(https://images.pexels.com/photos/70956/pexels-photo-70956.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     background-position: center;
     background-size: cover; 
 }
@@ -281,16 +282,18 @@ img{
 
 .top-box-8{
     grid-area: top box top-box-8;
-    background-image: url(https://images.pexels.com/photos/921362/pexels-photo-921362.jpeg) ;
+    background-image: url(https://images.pexels.com/photos/921362/pexels-photo-921362.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     background-position: center;
     background-size: cover;
 }
+
 .top-box-9{
     grid-area: top box top-box-9;
     background-image: url(https://images.pexels.com/photos/37078/food-spanish-baked-eggs-spanish-egg.jpg);
     background-position: center;
     background-size: cover;
 }
+
 
 
 /* boxes */
