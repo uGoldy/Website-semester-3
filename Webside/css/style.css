@@ -218,7 +218,7 @@ img{
 
 .top-box-1{
     grid-area: top box top-box-1;
-    background-image: url(https://images.pexels.com/photos/921374/pexels-photo-921374.jpeg);
+    content: url(https://images.pexels.com/photos/921374/pexels-photo-921374.jpeg);
     background-position: center;
     background-size: cover;
 }
@@ -267,7 +267,7 @@ img{
 
 .top-box-8{
     grid-area: top box top-box-8;
-    background-image: url(https://images.pexels.com/photos/921362/pexels-photo-921362.jpeg);
+    background-image: url(https://images.pexels.com/photos/921362/pexels-photo-921362.jpeg) ;
     background-position: center;
     background-size: cover;
 }
@@ -277,10 +277,6 @@ img{
     background-position: center;
     background-size: cover;
 }
-
-
-
-
 
 
 /* boxes */
@@ -326,7 +322,7 @@ img{
 /* footer */
 footer{
     margin-top: 2rem;
-    background: rgb(5, 28, 59);
+    background: rgb(25, 23, 23);
     color: #fff;
     text-align: center;
     padding: 1rem;
