@@ -85,11 +85,14 @@ body{
     border: 0;
     text-shadow: none;
     font-size: 1rem;
+    font-weight: bold;
+    text-shadow: 0px 3px 2px #333;
 }
 
 .btn:hover{
     background: #fff;
     color: #333;
+    text-shadow: none;
 }
 
 img{
@@ -128,7 +131,8 @@ img{
     text-transform: uppercase;
     font-size: 1.1rem;
     box-shadow: 0px 1px 4px rgb(104, 104, 104);
-    text-shadow: 0px 3px 2px #333
+    text-shadow: 0px 3px 2px #333;
+    font-weight: bold;
 }
 
 .main-nav a:hover{
@@ -144,6 +148,13 @@ img{
     'showcase showcase showcase'
     'showcase showcase showcase'
     'top-box-a top-box-a top-box-b';
+}
+
+.top-container h4{
+    font-size: 25px;
+    text-align: center;
+    background-color: #FF1D23;
+
 }
 
 /*showcase*/
@@ -169,13 +180,13 @@ img{
 }
 
 .showcase h1{
-    font-size: 4rem;
     margin-bottom: 0;
     color: #fff;
-    text-shadow: 0px 3px 2px #333;
+    text-shadow: 1px 3px 7px #333;
     grid-area: h1;
     font-family: 'Italiana', serif;
-    font-size: 6rem;
+    font-size: 5.5rem;
+    font-weight: bold;
     
     
 }
@@ -204,8 +215,10 @@ img{
     text-shadow: 0px 3px 2px #333;
     font-family: 'Italiana', serif;
     font-size:1rem;
+    font-weight: bold;
     
 }
+
 
 .top-box .price{
     font-size: 2.5rem
@@ -362,6 +375,7 @@ footer{
     
     .showcase h1{
         font-size: 2.5rem;
+        font-weight: bold;
     }
     
     .main-nav ul{
