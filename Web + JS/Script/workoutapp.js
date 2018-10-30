@@ -2,7 +2,6 @@ variables,
 weight
 height
 
-<script>
 
 function calculateBmi() {
 
@@ -24,5 +23,3 @@ function calculateBmi() {
         alert("Please fill in everything")
     }
 }
-
-</script>
