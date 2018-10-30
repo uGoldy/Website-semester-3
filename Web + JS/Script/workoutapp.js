@@ -1,4 +1,4 @@
-variables,
+//variabler
 weight
 height
 
@@ -22,4 +22,8 @@ function calculateBmi() {
     } else {
         alert("Please fill in everything")
     }
+    
 }
+
+
+
