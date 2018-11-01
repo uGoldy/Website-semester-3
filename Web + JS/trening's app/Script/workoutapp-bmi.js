@@ -1,29 +1,27 @@
-//variabler
-weight
-height
+bmi
+height_e
+weight_e
+bmi_e
+bmi;
 
+height_e = document.getElementById('height_e');
+weight_e = document.getElementById('weight_e');
+bmi_e = document.getElementById('bmi');
 
-function calculateBmi() {
+bmi = (weight_e * 0.45) / (((12 * height_e * 0.025) ^ 2;
 
-    var weight = document.bmiForm.weight.value
-    var height = document.bmiForm.height.value
-    if (weight > 0 && height > 0) {
-        var finalBmi = weight / (height / 100 * height / 100)
-        document.bmiForm.bmi.value = finalBmi
-        if (finalBmi < 18.5) {
-            document.bmiForm.meaning.value = "Underweight."
-        }
-        if (finalBmi > 18.5 && finalBmi < 25) {
-            document.bmiForm.meaning.value = "Decireable."
-        }
-        if (finalBmi > 25) {
-            document.bmiForm.meaning.value = "Overweight."
-        }
-    } else {
-        alert("Please fill in everything")
-    }
-    
-}
+            if (bmi <= 19) {
+                bmi = "Underweight";
+            } else if (bmi > 19 && bmi <= 25) {
+                bmi = "Desireable";
+            } else if (bmi > 25 && bmi <= 29) {
+                bmi = "Slightly overweight";
+            } else if (bmi > 29 && bmi <= 40) {
+                bmi = "obese";
+            } else(bmi > 40) {
+                bmi = "Extemely obese";
+            }
 
+            bmi_e.value = bmi;
 
-
+            return false;
