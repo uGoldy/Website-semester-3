@@ -1,24 +1,61 @@
 <!DOCTYPE html>
-   <!--    -->
-<html>
+<html lang="en">
 
-   <head>
-    <meta charset="UTF-8" />
-    <title>BMI Calculator</title>
+<head>
+    <meta charset="UTF-8">
+    <title>Bmi Calculator</title>
 </head>
 
+<body>
+    <form name="calc">
+        <input type="text" placeholder="Enter your height in cm" name "height" id="height">
 
-<BODY>
-       <h3> BMI Calculator </h3>
-        <form name="calculatebmi">
-        Your weight in kg: <input type="text" name="weight" size="10"><br /> Your height in cm: <input type="text" name="height" size="10"><br />
-        <input type="button" value="Calculate your BMI" onClick="calculateBmi()"><br /> <br> Your BMI is: <input type="text" name="bmi" size="10"><br /> This makes your weight: <input type="text" name="meaning" size="25"><br />
-        <input type="reset" value="Reset"/>
-    </form>
+        <input type="text" placeholder="Enter your weight in kg" name "weight" id="weight">
+        <br>
+        <br>
 
-    <script src=”workoutapp.js”></script>
-   
-</BODY>
+        <input type="button" name="BMI" value="Calculate my BMI" onclick="BMIcalc();"/>
+        <input type="reset" name="Reset" value="Reset"/> </form>
+
+        <p>
+            Your BMI is: <span id="score"></span> <br /> Your bodytype is: <span id="type"></span>
+        </p>
+
+        <script>
+            function BMIcalc() {
+                //Get inputs
+                //Convert to numbers if needed
+                
+                const h = Number(document.calc.height.value);
+                const w = Number(document.calc.weight.value);
+                const bmi = w /(height/100*height/100)
+                const s;
+
+                if (bmi <= 19) {
+                    s = "Underweight";
+                }
+                if
+                else(19 < bmi <= 25) {
+                    s = "Desirable";
+                }
+                if
+                else(25 < bmi <= 29) {
+                    s = "Overweight";
+                }
+                if
+                else(29 < bmi <= 40) {
+                    s = "Obese"
+                }
+                else(40 < bmi) {
+                    s = "Extremely Obese"
+                }
+                
+                document.getElementById("score").innerHTML+=bmi;
+                document.getElementById("type").innerHTML+=s;
+            }
+
+        </script>
+
+</body>
 
 </html>
-
