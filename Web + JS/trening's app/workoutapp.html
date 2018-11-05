@@ -7,6 +7,8 @@
 </head>
 
 <body>
+
+
     <form name="calc">
         <input type="text" placeholder="Enter your height in cm" name "height" id="height">
 
@@ -14,48 +16,80 @@
         <br>
         <br>
 
-        <input type="button" name="BMI" value="Calculate my BMI" onclick="BMIcalc();"/>
-        <input type="reset" name="Reset" value="Reset"/> </form>
+        <input type="button" name="BMI" value="Calculate my BMI" onclick="BMIcalc();" />
+        <input type="reset" name="Reset" value="Reset" /> </form>
 
-        <p>
-            Your BMI is: <span id="score"></span> <br /> Your bodytype is: <span id="type"></span>
-        </p>
+    <!--<p>
+        Your BMI is: <span id="score"></span> <br /> Your bodytype is: <span id="type"></span>
+    </p>-->
 
-        <script>
-            function BMIcalc() {
-                //Get inputs
-                //Convert to numbers if needed
-                
-                const h = Number(document.calc.height.value);
-                const w = Number(document.calc.weight.value);
-                const bmi = w /(height/100*height/100)
-                const s;
+    <script>
+        function BMIcalc() {
+            //Get inputs
+            //Convert to numbers if needed
+            //Validate my inputs
+            //If error inform user
+            //If nor error process and display result
 
-                if (bmi <= 19) {
-                    s = "Underweight";
-                }
-                if
-                else(19 < bmi <= 25) {
-                    s = "Desirable";
-                }
-                if
-                else(25 < bmi <= 29) {
-                    s = "Overweight";
-                }
-                if
-                else(29 < bmi <= 40) {
-                    s = "Obese"
-                }
-                else(40 < bmi) {
-                    s = "Extremely Obese"
-                }
-                
-                document.getElementById("score").innerHTML+=bmi;
-                document.getElementById("type").innerHTML+=s;
+            let h_txt = document.getElementById('height');
+            let w_txt = document.getElementById('weight');
+
+            //Convert to numbers if needed
+            let h = parseInt(h_txt.value);
+            let w = parseInt(w_txt.value);
+
+            //Validate my inputs
+
+            let error = "";
+
+            if (w <= 0) {
+                error = error + "Weight can't be negative \n";
             }
 
-        </script>
+            if (h <= 0) {
+                error = error + "Height can't be negative \n";
+            }
+
+            //If error inform user
+
+            if (error != "") {
+                alert(error);
+            }
+
+        }
+
+   </script>
+
 
 </body>
 
 </html>
+
+
+        <!-- const bmi = w / (height / 100 * height / 100)
+        const s;
+
+        if (bmi <= 19) {
+            s = "Underweight";
+        }
+        if
+        else(19 < bmi <= 25) {
+            s = "Desirable";
+        }
+        if
+        else(25 < bmi <= 29) {
+            s = "Overweight";
+        }
+        if
+        else(29 < bmi <= 40) {
+            s = "Obese"
+        }
+        else(40 < bmi) {
+            s = "Extremely Obese"
+        }
+
+        document.getElementById("score").innerHTML += bmi;
+        document.getElementById("type").innerHTML += s;
+        }
+
+  
