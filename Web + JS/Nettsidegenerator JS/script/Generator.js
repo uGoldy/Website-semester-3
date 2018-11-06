@@ -4,11 +4,38 @@
 
 
 //Arrays
-let shopping = ['Iphone', 'Nokia', '' ]
+
+const header = document.getElementsByTagName("header");
+const main = document.getElementsByTagName("main");
+
+//################ HEADER START ###################
+
+//################ HEADER ENDING ##################
+
+
+//################ MAIN START #####################
+const generateMain = document.getElementById("generate-main");
+
+generateMains();
+
+function generateMains(){
+    let htmlTxt = "";
+    
+    for(let teller = 0;){
+        htmlTxt +=`
+            <p>hello world<p>        
+    `;
+    }
+        generateMain.innerHTML = htmlTxt;
+        
+}
+//################ MAIN ENDING ####################
+
+
 
 
 //test
-const Film = {
+/*const Film = {
     init: function (title, price, year) {
         this.title = title;
         this.price = price;
@@ -37,4 +64,4 @@ films.push(film3);
 
 films.forEach(function (film) {
               console.log(film.describe());
-              });
+              });*/
